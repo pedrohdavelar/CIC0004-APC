@@ -1,0 +1,6 @@
+char = input()
+print (char)
+print (2 * char)
+print (char + ' ' + char)
+print ('2' + char)
+print ('[' + char + ']')

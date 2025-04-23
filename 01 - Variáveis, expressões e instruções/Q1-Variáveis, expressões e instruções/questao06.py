@@ -1,0 +1,5 @@
+S = input()
+O = input()
+P = input()
+resposta = ( S + ' ' + P + ' ' + O + '.')
+print(resposta)

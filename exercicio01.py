@@ -1,0 +1,15 @@
+x1, y1 = input().split()
+x2, y2 = input().split()
+complexo = input() 
+
+x1 = float(x1)
+y1 = float(y1)
+x2 = float(x2)
+y2 = float(y2)
+complexo = complex(complexo)
+
+print (">>>", type(x1), type(x2))
+distancia = (((x2 - x1) ** 2) + ((y2 - y1) ** 2)) ** (1/2)
+modulo = (complexo.real ** 2 + complexo.imag ** 2) ** (1/2)
+print ('%.4f' % distancia)
+print ('%.4f' % modulo)

@@ -1,0 +1,10 @@
+c1 = input()
+c2 = input()
+c3 = input()
+
+print (c1 + c2 + c3)
+print (c1)
+print (c2 * 2)
+print (c3 + ' ' + c3 + ' ' + c3)
+print ("X == " + c1 + ", Y == " + c2 + ", Z == " + c3)
+print ("X != " + c2 + ", Y != " + c1 + ", Z == " + c3)
