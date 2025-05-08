@@ -12,4 +12,4 @@ def fibonacci(n):
             i0 = i1
             i1 = i2
             n -= 1
-
+fibonacci(1)
